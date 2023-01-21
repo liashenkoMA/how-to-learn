@@ -9,17 +9,13 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-.page__title, .page__paragraph, .page__links {
-  margin: 0;
-}
-
 /* HEADER */
 
 .header {
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-
+  
   background-color: #f2f2f2;
 
   display: flex;
@@ -42,7 +38,7 @@
 .header__title {
   width: 730px;
 
-  margin-left: 64px;
+  margin: 0 0 0 64px;
   z-index: 2;
 
   line-height: 96px;
@@ -57,6 +53,7 @@
   bottom: 30px;
   z-index: 2;
 
+  margin: 0;
   width: 388px;
 
   line-height: 25px;
@@ -111,9 +108,9 @@
 
 .two-columns__brief {
   width: 175px;
-}
 
-.two-columns__title {
+  margin: 0;
+
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -125,15 +122,17 @@
   min-width: 784px;
 }
 
-.two-columns__paragraph:nth-child(even) {
-  padding: 30px 0;
-}
-
 .two-columns__paragraph {
+  margin: 0;
+
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
   color: #000;
+}
+
+.two-columns__paragraph:nth-child(even) {
+  padding: 30px 0;
 }
 
 .two-columns__span-accent {
@@ -154,6 +153,7 @@
 }
 
 .section-title {
+  margin: 0;
   width: 60%;
 
   line-height: 1.15;
@@ -164,6 +164,7 @@
 }
 
 .section-subtitle {
+  margin: 0;
   padding-top: 20px;
 
   width: 60%;
@@ -190,6 +191,7 @@
 }
 
 .table__heading {
+  margin: 0;
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
@@ -197,6 +199,7 @@
 }
 
 .table__text {
+  margin: 0;
   padding-top: 20px;
 
   line-height: 1.2;
@@ -219,6 +222,7 @@
 }
 
 .feynman__title {
+  margin: 0;
   padding-top: 100px;
   z-index: 2;
   width: 648px;
@@ -231,6 +235,7 @@
 }
 
 .feynman__subtitle {
+  margin: 0;
   padding-top: 70px;
   z-index: 2;
 
@@ -242,9 +247,11 @@
 }
 
 .feynman__link {
+  margin: 0;
   position: absolute;
   top: 50%;
   right: 48px;
+  z-index: 2;
 
   line-height: 51px;
   font-size: 36px;
@@ -276,29 +283,33 @@
 }
 
 .section-title_theme_dark {
+  margin: 0;
   color: white;
   z-index: 2;
 }
 
 .section-subtitle_theme_dark {
+  margin: 0;
   color: white;
   z-index: 2;
 }
 
 .table__heading_theme_dark {
+  margin: 0;
   color: white;
 }
 
 .table__text_theme_dark {
+  margin: 0;
   color: white;
 }
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
+  padding-top: 80px;
   width: 200px;
   color: white;
   margin-right: 0;
-  margin-top: 80px;
 
   z-index: 2;
 }
@@ -308,9 +319,10 @@
   height: 877px;
 
   background-image: url(../images/kaufman-triangle.svg);
+  background-size: contain;
   position: absolute;
   top: 0;
-  right: -120px;
+  right: -210px;
   z-index: 1;
 }
 
@@ -346,7 +358,12 @@
   left: 0;
 }
 
+.footer__columns_content_info {
+
+}
+
 .footer__author {
+  margin: 0;
   bottom: 0;
   left: 0;
 
@@ -359,6 +376,7 @@
 }
 
 .footer__header {
+  margin: 0;
   line-height: 30px;
   font-size: 18px;
   font-weight: 600;
