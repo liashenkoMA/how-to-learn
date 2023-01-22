@@ -25,7 +25,7 @@
 
     <main class="content">
       <section class="description">
-        <article class="two-columns">
+        <div class="two-columns">
           <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
           <div class="two-columns__main-text">
             <p class="two-columns__paragraph">
@@ -38,7 +38,7 @@
               Конкретные техники и упражнения помогают изменить подход к обучению, сделать его эффективным и захватывающим. Эти же техники применяются на примере обучения в Практикуме.
             </p>
           </div>
-        </article>
+        </div>
       </section>
 
       <section class="digits">
@@ -142,14 +142,14 @@
 
     <footer class="footer">
       <div class="footer__columns">
-        <div class="footer__columns_content_copyright">
-          <a class="logo logo_place_footer" href="#">
-            <img src="./images/logo_place_footer.svg" alt="Логотип сайта Научиться учиться">
+        <div class="footer__columns_content footer__columns_content_copyright">
+          <a href="#">
+            <img class="logo logo_place_footer" src="./images/logo_place_footer.svg" alt="Логотип сайта Научиться учиться">
           </a>
           <p class="footer__author">&copy; Максим Ляшенко</p>
         </div>
-        <div class="footer__columns_content_info">
-          <h2 class="footer__header">О Практикуме</h2>
+        <nav class="footer__columns_content footer__columns_content_info">
+          <h2 class="footer__column-heading">О Практикуме</h2>
           <ul class="footer__column-links">
             <li>
               <a class="footer__column-link" href="#">Главная</a>
@@ -161,9 +161,9 @@
               <a class="footer__column-link" href="#">Наставники</a>
             </li>
           </ul>
-        </div>
-        <div class="footer__columns_content_social">
-          <h2 class="footer__header">Соцсети</h2>
+        </nav>
+        <nav class="footer__columns_content footer__columns_content_social">
+          <h2 class="footer__column-heading">Соцсети</h2>
           <ul class="footer__column-links">
             <li>
               <a class="footer__column-link" href="#">
@@ -181,7 +181,7 @@
               </a>
             </li>
           </ul>
-        </div>
+        </nav>
       </div>
     </footer>
   </div>
