@@ -356,7 +356,9 @@
   justify-content: space-between;
 }
 
-.footer__columns_content_copyright {
+.footer__column_content_copyright {
+  display: flex;
+  flex-direction: column;
   justify-content: space-between;
   flex-basis: 711px;
 }
@@ -364,12 +366,6 @@
 .logo_place_footer {
   top: 0;
   left: 0;
-}
-
-.footer__columns_content {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
 }
 
 .footer__author {
@@ -395,7 +391,7 @@
 
 .footer__column-links {
   margin: 0;
-  padding: 20px 0 18px 0;
+  padding: 20px 0 16px 0;
 
   list-style: none;
 }
