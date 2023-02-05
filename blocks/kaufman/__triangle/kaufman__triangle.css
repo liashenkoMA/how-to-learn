@@ -8,4 +8,6 @@
   top: 0;
   right: -210px;
   z-index: 1;
+
+  animation: rotation 20s ease-in-out infinite;
 }
