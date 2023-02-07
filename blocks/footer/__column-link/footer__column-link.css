@@ -11,7 +11,6 @@
 
 .footer__column-link:hover {
   color: white;
-  text-decoration: underline;
   opacity: 0.5;
   transition: 2s;
 }

@@ -2,6 +2,7 @@
   line-height: 42px;
   font-size: 30px;
   font-weight: normal;
+  align-self: baseline;
 
   text-decoration: none;
   color: #2f80ed;
@@ -9,7 +10,6 @@
 
 .khan__buy-link:hover {
   color: #2f80ed;
-  text-decoration: underline;
   opacity: 0.5;
   transition: 2s;
 }
